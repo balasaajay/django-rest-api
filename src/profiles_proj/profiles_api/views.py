@@ -80,7 +80,7 @@ class HelloViewSets(viewsets.ViewSet):
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     def retrieve(self, request, pk=None):
-        """ Handles getting object by its ID """
+        """ Handles getting object by ID """
 
         return Response({'http_meth': 'get'})
 
