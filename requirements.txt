@@ -5,7 +5,7 @@ chardet==3.0.4
 conda==4.3.30
 cryptography==2.0.3
 Django==2.0.1
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 dnspython==1.15.0
 idna==2.6
 knockpy==4.1.1
